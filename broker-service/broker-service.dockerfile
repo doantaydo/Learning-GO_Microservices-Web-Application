@@ -12,7 +12,7 @@ RUN CGO_ENABLED=0 go build -o brokerApp ./cmd/api
 RUN chmod +x /app/brokerApp
 
 # build a tiny docker image
-FROM alpine:lastest
+FROM alpine:latest
 
 RUN mkdir /app
 
