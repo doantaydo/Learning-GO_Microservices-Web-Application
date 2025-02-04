@@ -26,4 +26,5 @@ go.work
 docker-compose.yml
 database.yml
 
-project/db-data/*
+project/db-data/mongo/*
+project/db-data/postgres/*
