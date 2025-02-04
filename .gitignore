@@ -23,7 +23,6 @@ go.work
 #.vscode config file
 .vscode
 
-docker-compose.yml
 database.yml
 
 project/db-data/mongo/*
