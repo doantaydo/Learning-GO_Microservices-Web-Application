@@ -26,5 +26,13 @@ go.work
 docker-compose.yml
 database.yml
 
-project/db-data/mongo/*
-project/db-data/postgres/*
+# generate from docker-compose
+project/db-data
+project/db-date
+
+# binary files build from Makefile
+authApp
+brokerApp
+loggerServiceApp
+mailServiceApp
+listenerApp
